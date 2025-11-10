@@ -1,6 +1,7 @@
 import { Heart, Globe, Feather, Shield, Users } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import FeatureCard from "@/components/FeatureCard";
+import HowItWorks from "@/components/HowItWorks";
 import heroImage from "@/assets/hero-lumina.jpg";
 
 const Index = () => {
@@ -107,6 +108,9 @@ const Index = () => {
           </div>
         </div>
       </section>
+
+      {/* How It Works Section */}
+      <HowItWorks />
 
       {/* Impact Vision Section */}
       <section className="py-24">
